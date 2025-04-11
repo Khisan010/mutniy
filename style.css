@@ -1,0 +1,280 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contain {
+  max-width: 1220px;
+  margin: 0 auto;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+ul {
+  display: flex;
+  gap: 50px;
+}
+li,
+a {
+  list-style: none;
+  text-decoration: none;
+  color: #737373;
+}
+button {
+  background: linear-gradient(95.2deg, #b90160 2.23%, #2e3192 99.51%);
+  margin-top: 20px;
+  width: 179px;
+  height: 53px;
+  border: 0;
+  border-radius: 7px;
+}
+.rasm {
+  margin-top: 200px;
+}
+h1 {
+  font-size: 50px;
+}
+header {
+  display: flex;
+  justify-content: center;
+  gap: 90px;
+}
+
+.h2 {
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  width: 344px;
+  height: 210px;
+  padding: 20px;
+  box-shadow: 0px 0px 40px 0px #b8005f33;
+}
+p {
+  margin-top: 10px;
+}
+h3 {
+  font-size: 30px;
+}
+main {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  margin-top: 100px;
+}
+
+.cardim > img {
+  border-radius: 5px;
+}
+.coment {
+  background: linear-gradient(
+    94.31deg,
+    rgba(212, 20, 90, 0.25) 0.96%,
+    rgba(46, 49, 146, 0.25) 104.83%
+  );
+  width: 1400px;
+  height: 357px;
+  top: 1661px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+
+  padding-top: 100px;
+}
+.com {
+  width: 436px;
+  height: 187px;
+  background: white;
+  border-radius: 9px;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.jenix {
+  position: absolute;
+  z-index: 1;
+  bottom: -1020px;
+  left: 130px;
+}
+.com > p {
+  font-size: 20px;
+}
+.jenixbr {
+  position: absolute;
+  left: 620px;
+  bottom: -1020px;
+}
+.jenixik {
+  position: absolute;
+  left: 1150px;
+  bottom: -1020px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 100px;
+  width: 1440px;
+  flex-wrap: wrap;
+}
+.text {
+  display: flex;
+  gap: 200px;
+}
+.text > h1 {
+  font-size: 20px;
+}
+.plar {
+  display: flex;
+  gap: 300px;
+}
+.plar > img {
+  width: 33px;
+  height: 33px;
+}
+button > a {
+  color: white;
+}
+@media screen and (min-width: 600px) and (max-width: 800px) {
+  main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .card,
+  .cardota,
+  .cardim {
+    width: 600px;
+  }
+  .cardim > img {
+    width: 600px;
+  }
+  ul {
+    display: none;
+  }
+  .coment {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 769px;
+    height: 948px;
+  }
+  .rasmik > img {
+    width: 368px;
+    height: 473px;
+  }
+  .rasm > h1 {
+    font-size: 40px;
+  }
+  .com {
+    flex-wrap: wrap;
+  }
+  header {
+    gap: 40px;
+    padding-left: 50px;
+  }
+  .jenix {
+    top: 2680px;
+    left: 300px;
+  }
+  .jenixbr {
+    top: 2960px;
+    left: 300px;
+  }
+  .jenixik {
+    top: 3240px;
+    left: 300px;
+  }
+
+  .plar {
+    gap: 100px;
+  }
+  .text {
+    gap: 30px;
+    font-size: 10px;
+  }
+  footer {
+    margin-left: -300px;
+  }
+  button > a {
+    color: white;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 600px) {
+  ul {
+    display: none;
+  }
+  nav > img {
+    display: flex;
+    text-align: center;
+    margin-left: 120px;
+  }
+  .rasmik {
+    display: none;
+  }
+  button {
+    display: flex;
+    align-items: center;
+  }
+  .rasm > h1 {
+    margin-left: 120px;
+    margin-top: -100px;
+    font-size: 40px;
+  }
+  button {
+    margin-left: 150px;
+    margin-bottom: 50px;
+    padding-left: 50px;
+    margin-top: 100px;
+    border-radius: 15px;
+  }
+
+  .h2 {
+    margin-left: 50px;
+    font-size: 35px;
+    display: flex;
+  }
+
+  .card,
+  .cardota {
+    width: 270px;
+    height: 223px;
+  }
+  .cardim > img {
+    width: 270px;
+  }
+
+  main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .cardota {
+    margin-bottom: 150px;
+  }
+  .coment{flex-wrap: wrap;width: 501px;
+    height: 948px;
+    background: linear-gradient(94.31deg, rgba(212, 20, 90, 0.25) 0.96%, rgba(46, 49, 146, 0.25) 104.83%);
+}
+ .com{width: 367px;
+  height: 201px;
+  
+  margin-left: 84px;
+  }
+  .jenix{bottom: -1900px;
+  left: 180px;}
+  .jenixbr{top:2630px ;left: 180px;}
+  .jenixik{top: 2050px;left: 180px;}
+  footer{width: 321px;
+    height: 317px;
+   
+    }
+    .text{flex-wrap: wrap; gap: 130px;margin-left: 150px;}
+    .plar{flex-wrap: wrap; gap: 130px; position: absolute; height:250px ; top: 3200px; left: 150px;}
+}
